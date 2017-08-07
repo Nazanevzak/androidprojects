@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainlayout"
+    android:weightSum="200">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="15dp"
+        android:textColor="#3bbe00"
+        android:layout_weight="10"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/id1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:text="Name"
+        android:textSize="15dp"
+        android:textColor="#db21bf"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/name1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Price"
+        android:textSize="13dp"
+        android:textColor="#1850c9"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/price1" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"/>
+
+</LinearLayout>
